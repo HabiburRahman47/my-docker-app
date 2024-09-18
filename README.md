@@ -10,9 +10,10 @@ This is a simple Node.js application that demonstrates Docker integdration.
    docker build -t my-node-app .
 
 2. **Run docker containers**
+   ``` bash
     docker run -d -p 3000:3000 my-node-app
 
-3. **Access the Application**
+4. **Access the Application**
     Open your browser and navigate to
     http://localhost:3000
 
